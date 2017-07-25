@@ -15,7 +15,7 @@ If you don't already have those, visit the downloads pages below and follow the 
 ```
 > git clone git@github.com:AmroAly/react-laravel.git
 
-> cd react-laravel
+> cd simple-virtual-exposition
 
 > chmod -R 777 www
 
