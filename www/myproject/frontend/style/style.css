@@ -1,0 +1,256 @@
+/* Navbar style */
+nav {
+    margin-bottom: 30px;
+    min-width: 210px;
+    box-shadow:  0px 0px 10px #9E9E9E;
+    border-radius: 0px !important;
+    background: #fff !important;
+}
+
+li {
+    list-style: none;
+}
+
+nav li {
+    text-align: center;
+    padding: 10px;
+}
+/*
+.li-right {
+    float: right !important;
+    margin-left: 10px;
+}*/
+
+.navbar-brand {
+    float: none !important;
+    padding: 20px !important;
+}
+
+.flex-grow {
+    flex: 1;
+}
+
+.responsive-svg {
+    max-height: 300px;
+}
+
+svg {
+    max-height: 450px;
+}
+
+button.btn-primary:hover {
+    background-color: #0275d8;
+    border-color: #0275d8;
+    box-shadow: 0px 0px 2px grey;
+}
+
+circle {
+    cursor: pointer;
+}
+
+
+.event-info {
+    background: red;
+}
+
+.center-div {
+    margin: auto;
+    width: 40%;
+    border: 1px solid rgba(105, 105, 105, 0.29);
+    padding: 40px 70px;
+    box-shadow: 0px 0px 10px #9E9E9E;
+}
+
+fieldset {
+    position: relative;
+}
+
+.alert.alert-danger {
+    border: none;
+    font-size: 14px;
+}
+
+.error {
+    color: #fff;
+    border: 1px solid #b30000;
+    background: #b30000;
+    position: absolute;
+    padding: 5px;
+    min-width: 200px;
+    box-shadow: 3px 1px 15px #140909;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.btn, .form-control {
+    border-radius: 2px !important;
+}
+
+.reserve-btn {
+    background: rgb(233, 30, 99);
+    color: white;
+}
+
+@media only screen and (max-width: 950px) {
+    .center-div {
+        width: 60%;
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .error {
+        top: 31px;
+        right: -207px;
+    }
+    .error::after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 100%; /* To the left of the tooltip */
+        margin-top: -6px;
+        border-width: 7px;
+        border-style: solid;
+        border-color: transparent #b30000 transparent transparent;
+    }
+
+    .reserve {
+        margin-top: -100px;
+    }
+}
+
+.reserve {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .error {
+        font-size: 12px;
+        top: -3px;
+        right: 0;
+        min-width: 120px
+    }
+
+    .error::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #b30000 transparent transparent transparent;
+    }
+
+    /*error:last-child {
+        background: black;
+    }*/
+}
+
+@media only screen and (max-width: 500px) {
+    .center-div {
+        width: 100%;
+        padding: 20px 30px;
+    }
+}
+
+.h3-center {
+    text-align: center;
+}
+
+/* stands style */
+
+.stands-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stands-div-heading {
+    text-align: center;
+    color: #5f5a5a;
+    margin-bottom: 20px;
+}
+
+.contact {
+    float: left;
+    margin-top: 10px;
+}
+
+.marketing_document {
+    float: left;
+}
+
+.fa-arrow-circle-down {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.card {
+    width: 30%;
+    min-width: 250px;
+    margin-bottom: 20px !important;
+    cursor: pointer;
+}
+
+.stands-div {
+    padding: 0px !important;
+}
+
+.free-stand {
+    background: green;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    display: inline-block;
+    float: right;
+}
+
+.test {
+    background: red;
+    min-width: 500px;
+}
+
+.stand-details {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    max-height: 330px;
+    background: white;
+    padding: 20px !important;
+}
+
+.center-th {
+    text-align: center;
+}
+
+.booked {
+    background: #af2e2e;
+    padding: 5px;
+    display: inline;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+}
+
+.company-logo {
+    max-width: 100px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    float: left;
+}
+
+.price {
+    float: left;
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+}
